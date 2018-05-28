@@ -1,0 +1,17 @@
+head
+    link(rel="stylesheet", href="/public/css/styles.css")
+block main
+    button(onclick=create()) Create
+    form(method="post")
+        label(for="title" class="screa") Title
+        input(id="title", class="screa", name="title", type="text")
+        label(for="desc" class="screa") Description
+        input(id="desc", class="screa", name="desc", type="text")
+        input(id="user", class="hide", name="user", type="text")
+        input(id="res", class="hide", name="res", type="bool", value=false)
+        button(type="submit", class="screa") Create your question
+    button(onclick=edit()) Edit
+    button(onclick=suppr()) Delete
+
+    script(src="/public/scripts/span.js")
+block footer
