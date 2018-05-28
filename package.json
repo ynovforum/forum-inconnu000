@@ -1,0 +1,22 @@
+{
+  "name": "forum-inconnu000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynovforum/forum-inconnu000.git"
+  },
+  "author": "inconnu000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynovforum/forum-inconnu000/issues"
+  },
+  "homepage": "https://github.com/ynovforum/forum-inconnu000#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
