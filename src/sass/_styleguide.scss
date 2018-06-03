@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/*colour palette*/
+
+$menu-item : #00aeef;
+$logo-hover : #fecf39;
+$label-topbar : #ffdf6d;
+$label-picture : #dbdbdb;
+$search-box : #81736a;
+$profile-bar : #68768c;
+$error-link : #ffa2ad;
+$success-link : #74c7a8;
+$success-max : #00797a;
+$violet : #8781bd;
+
+/*typography*/
+
+h1{
+  font-family: 'Source Sans Pro', semi-bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #393c3e;
+}
+h2{
+  font-family: 'Source Sans Pro', regular;
+  font-size: 22px;
+  line-height: 32px;
+  color: #393c3e;
+}
+h3{
+  font-family: 'Source Sans Pro', regular;
+  font-size: 20px;
+  line-height: 28px;
+  color: #393c3e;
+}
+p{
+  font-family: 'Source Sans Pro', regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #71787e;
+}
+footer{
+  font-family: 'Source Sans Pro', regular;
+  font-size: 14px;
+  line-height: 22px;
+  color: #71787e;
+}
+link{
+  font-family: 'Source Sans Pro', semi-bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00aeef;
+}
+
+/*forms*/
+
+.input-empty{
+  color: grey;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 3% 0 3% 4%
+}
+.input-selected{
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3% 0 3% 4%
+}
+.input-typing{
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 3% 0 3% 4%
+}
+.input-error{
+  color: black;
+  border: 1px solid darkred;
+  border-radius: 3px;
+  padding: 3% 0 3% 4%
+}
+.input-success{
+  color:black;
+  border: 1px solid green;
+  border-radius: 3px;
+  padding: 3% 0 3% 4%
+}
+.select-empty{
+  color:grey;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+.select-typing{
+  color:black;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+
+.textarea{
+  border: 1px solid lightgrey;
+  padding: 2% 8% 2% 2%;
+}
+
+.gbn{
+   background-color: #25B00F;
+   border: 0 solid #25B10F;
+   border-radius: 3px;
+   padding: 2% 6% 2% 6%;
+ }
+.gbh{
+  background-color: #1F960B;
+  border: 0 solid #1F960B;
+  border-radius: 3px;
+  padding: 2% 6% 2% 6%;
+}
+.gbc{
+  background-color: #19780a;
+  border: 0 solid #19780a;
+  border-radius: 3px;
+  padding: 2% 6% 2% 6%;
+}
+.bbn{
+  background-color: #259bf2;
+  border: 0 solid #259bf2;
+  border-radius: 3px;
+  padding: 2% 6% 2% 6%;
+}
+.bbh{
+  background-color: #1984D4;
+  border: 0 solid #1984D4;
+  border-radius: 3px;
+  padding: 2% 6% 2% 6%;
+}
+.bbc{
+  background-color: #1170B8;
+  border: 0 solid #1170B8;
+  border-radius: 3px;
+  padding: 2% 6% 2% 6%;
+}
+
+
+/*layout*/
+
+.nlayout{
+  article{
+    position: relative;
+  }
+  header{
+    position: absolute;
+  }
+}

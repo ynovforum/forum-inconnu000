@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 function defineUser(database) {
-    const User = darabase.define('user', {
+    const User = database.define('user', {
         name: {
             type: Sequelize.STRING
         },
@@ -18,7 +18,7 @@ function defineUser(database) {
             type: Sequelize.STRING
         }
     });
-    User.associate = ({ request, response }) => {
+    User.associate = ({ req, res }) => {
         User.hasMany(Questions);
         User.hasMany(Comments);
     };
