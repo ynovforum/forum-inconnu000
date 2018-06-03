@@ -1,0 +1,29 @@
+block head
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.13/css/all.css", integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp", crossorigin="anonymous")
+block main
+    article(class="signart")
+        div(class="head")
+            i(class="fab fa-telegram fa-4x")
+            h2 Welcome! Please register to continue.
+        div(class="box")
+            form(method="post")
+                label(for="name") Type your full name
+                input(id="name", name="email", type="text")
+                label(for="email") Type your e-mail address
+                input(id="email", name="email", type="text")
+                label(for="password") Type your password
+                input(id="password", name="password", type="password")
+                label(for="bio") Make a little description of you
+                input(id="bio", name="bio", type="text")
+                button(type="submit") Register
+            p(class="middle") Register via social network
+            div(class="social")
+                i(class="fab fa-facebook-square fa-6x")
+                i(class="fab fa-twitter-square fa-6x")
+                i(class="fab fa-pinterest-square fa-6x")
+                i(class="fab fa-dribbble-square fa-6x")
+    div(class="under")
+        a(class="align1", href="/login") You already have an account? Log in
+block footer

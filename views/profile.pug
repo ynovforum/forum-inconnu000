@@ -1,0 +1,22 @@
+block head
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.13/css/all.css", integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp", crossorigin="anonymous")
+block main
+    header(class="prohead")
+        h2 Settings
+    article(class="artpro")
+        h2 Welcome! Please register to continue.
+        i(class="fas fa-user-circle fa-4x" id="pp")
+        form(method="post")
+            label(id="lname", for="name") Your name
+            input(id="name", name="email", type="text")
+            label(for="bio") Bio
+            textarea(id="bio", name="bio", class="input-empty")
+            label(for="email") Type your e-mail address
+            input(id="email", name="email", type="text")
+            button(class="gbn") Change
+            label(for="password") Type your password
+            input(id="password", name="password", type="password")
+            button(class="gbn") Change
+block footer
